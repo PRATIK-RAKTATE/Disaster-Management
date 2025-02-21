@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="\hackton\src\css\style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css"
+      integrity="sha512-58P9Hy7II0YeXLv+iFiLCv1rtLW47xmiRpC1oFafeKNShp8V5bKV/ciVtYqbk2YfxXQMt58DjNfkXFOn62xE+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css"
+      integrity="sha512-58P9Hy7II0YeXLv+iFiLCv1rtLW47xmiRpC1oFafeKNShp8V5bKV/ciVtYqbk2YfxXQMt58DjNfkXFOn62xE+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <section class="navbar">
+        <!-- <img src="./images/Logo.png" alt="logo" /> -->
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./alert.html">Alerts</a></li>
+          <div class="dropdown">
+            <ul class="dropdown-btn">
+              Way To Give
+            </ul>
+            <div class="dropdown-content">
+              <a href="https://www.paypal.com/us/home">Give via PayPal</a>
+              <a href="#">Give Once</a>
+              <a href="#">Give Monthly</a>
+              <a href="#">Other Ways to Give</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <ul class="dropdown-btn">
+              Our Work
+            </ul>
+            <div class="dropdown-content">
+              <a href="#">Emergency Food Relief</a>
+              <a href="#">Climate-Related Responses</a>
+              <a href="#">Legacy Programs</a>
+              <a href="#"> Chef Crops</a>
+            </div>
+          </div>
+
+          <li><a href="./about.html">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <button class="donate">Donate</button>
+      </section>
+    </header>
+
+    <section class="about">
+      <div class="abt-heading">
+        <p>CONTACT US</p>
+        <h1>Thank you for your interest in Xyz</h1>
+        <p>
+          Please see frequently asked questions below and feel free to reach out
+          if you have any further needs. Please note, Xyz does not accept
+          unsolicited requests for funding.
+        </p>
+      </div>
+    </section>
+      <div class="faq-container">
+        <h1>Frequently Asked Questions</h1>
+        <div class="faq">
+          <div class="question" onclick="toggleAnswer(this)">
+            What is Disaster Management?
+            <span class="arrow">▼</span>
+          </div>
+          <div class="answer">
+            Disaster management involves preparing for, responding to, and
+            recovering from natural and man-made disasters. It includes risk
+            reduction, emergency response, and rebuilding efforts to minimize
+            damage and protect lives.
+          </div>
+        </div>
+        <div class="faq">
+          <div class="question" onclick="toggleAnswer(this)">
+            What is the mission of our Disaster Management organization?
+            <span class="arrow">▼</span>
+          </div>
+          <div class="answer">
+            Our mission is to enhance community resilience, provide emergency
+            relief, and implement disaster preparedness programs. We aim to
+            reduce the impact of disasters through education, training, and
+            rapid response efforts.
+          </div>
+        </div>
+        <div class="faq">
+          <div class="question" onclick="toggleAnswer(this)">
+            What types of disasters do we handle?
+            <span class="arrow">▼</span>
+          </div>
+          <div class="answer">
+            We respond to a wide range of disasters, including earthquakes,
+            floods, hurricanes, wildfires, pandemics, industrial accidents, and
+            more. Our team is equipped to manage both natural and human-made
+            crises.
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question" onclick="toggleAnswer(this)">
+            How can I get involved in disaster management efforts?
+            <span class="arrow">▼</span>
+          </div>
+          <div class="answer">
+            You can support us by volunteering, donating, or spreading awareness. We offer training programs for individuals interested in emergency response and disaster preparedness.
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question" onclick="toggleAnswer(this)">
+            How does our organization prepare for disasters?
+            <span class="arrow">▼</span>
+          </div>
+          <div class="answer">
+            We conduct risk assessments, develop emergency response plans, organize training sessions, and collaborate with government agencies, NGOs, and local communities to ensure effective disaster preparedness.
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question" onclick="toggleAnswer(this)">
+            What should I do in case of an emergency?
+            <span class="arrow">▼</span>
+          </div>
+          <div class="answer">
+            Follow the emergency response plan, stay informed through official channels, and adhere to evacuation and safety guidelines. We provide real-time updates and resources to help individuals and communities stay safe.
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question" onclick="toggleAnswer(this)">
+            How does our organization help after a disaster?
+            <span class="arrow">▼</span>
+          </div>
+          <div class="answer">
+            We provide immediate relief such as food, water, shelter, and medical aid. We also assist in rebuilding infrastructure, offering mental health support, and helping communities recover from long-term impacts.
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question" onclick="toggleAnswer(this)">
+            How can I donate to support disaster relief efforts?
+            <span class="arrow">▼</span>
+          </div>
+          <div class="answer">
+            You can donate through our website, bank transfers, or fundraising campaigns. Your contributions help us provide emergency aid and rebuild communities affected by disasters.
+          </div>
+        </div>
+      </div>
+ 
+
+    <hr class="hr" />
+    <!-- footer -->
+    <footer class="footer">
+      <div class="lists">
+        <div class="list1">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Donate</a></li>
+          <li><a href="#">Volunteers</a></li>
+        </div>
+        <div class="list2">
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Financials</a></li>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <ul class="dropdown-btn">
+          <i class="fa-solid fa-globe"></i>
+          Language
+        </ul>
+        <div class="dropdown-content">
+          <a href="#">English</a>
+        </div>
+      </div>
+
+      <div class="feedback">
+        <h2>Feedback</h2>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="rating">Rating:</label>
+          <select id="rating" name="rating">
+            <option value="5">Excellent</option>
+            <option value="4">Good</option>
+            <option value="3">Average</option>
+            <option value="2">Poor</option>
+            <option value="1">Very Poor</option>
+          </select>
+
+          <button type="submit" class="submit">Submit</button>
+        </form>
+      </div>
+    </footer>
+    <div class="copywrite">
+      <p>©2025 made by status 200</p>
+    </div>
+    <script src="D:\hackton\src\JS\script.js"></script>
+  </body>
+</html>
