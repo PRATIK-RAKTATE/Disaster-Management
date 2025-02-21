@@ -33,3 +33,8 @@ body, html {
     color: white;
     cursor: pointer;
 }
+
+/* Adjusting the size of the warning symabol on the map  */
+.my-custom-icon i {
+    font-size: 15px !important;
+}
