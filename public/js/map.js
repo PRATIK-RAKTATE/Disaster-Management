@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
 
                 const myIcon = L.divIcon({
-                    html: `<i class="fas fa-exclamation-triangle" style="color: red; font-size: 24px;"></i>`,
+                    html: `<i class="fas fa-exclamation-triangle" style="color: red; font-size: 20px;"></i>`,
                     iconSize: [24, 24],
                     className: "my-custom-icon"
                 });
